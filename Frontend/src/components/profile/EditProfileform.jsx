@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import axios from 'axios';
 import toast from 'react-hot-toast';
+import { Link } from 'react-router-dom';
 import './EditProfileForm.css';
 
 const EditProfileform = () => {
@@ -40,12 +41,10 @@ console.log(err);
 };
 
 return (
+<div><h1 className='editph1'>Edit Profile</h1>
 <div className='editProfileForm'>
-<a className="backBtn" to="/">
-<h2>Home</h2>
-</a>
+<Link to="/" className="editBtn">Home</Link>
 <div className='editProfileForm'>
-<h1 className='editph1'>Edit Profile</h1>
 <form className="editForm" onSubmit={updateProfile}>
 <label htmlFor="name">
 Name:
@@ -71,6 +70,7 @@ onChange={updateUserInfo}
 </label>
 <button type="submit">Save</button>
 </form>
+</div>
 </div>
 </div>
 )
