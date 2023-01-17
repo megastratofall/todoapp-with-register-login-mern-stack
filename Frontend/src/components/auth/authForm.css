@@ -1,0 +1,62 @@
+.register,
+.login {
+flex: 1;
+border: 2px solid #fff;
+border-radius: 10px;
+padding: 10px;
+margin-top: 100px;
+margin-left: auto;
+margin-bottom: auto;
+margin-right: auto;
+justify-content: center;
+height: 350px;
+}
+
+.title {
+font-size: 3rem;
+text-transform: uppercase;
+transform: translate(20px, -30px);
+}
+.authForm {
+margin-top: 2rem;
+width: 100%;
+}
+label {
+width: 100%;
+font-size: 2em;
+}
+input{
+position: relative;
+font-size: 2rem;
+width: 100%;
+margin-bottom: 2rem;
+margin-top: 0.5rem;
+padding: 1rem;
+border-radius: 6px;
+border: 1px solid rgba(255,255,255,0.25);
+background-color: #1d2b3a;
+font-size: 1em;
+}
+#input_login{
+    border: 1px solid rgba(255,255,255,0.25);
+    background-color: #1d2b3a;  
+}
+#input_register{
+    border: 1px solid rgba(255,255,255,0.25);
+    background-color: #1d2b3a;    
+}
+button[type='submit'] {
+font-size: 2rem;
+padding: 0.5rem 1rem;
+cursor: pointer;
+}
+#reg_button{
+    background-color: #1d2b3a;
+    border: 1px solid rgb(241, 241, 241);
+    transform: translate(0px, 10px);
+}
+#log_button{
+    background-color: #1d2b3a;
+    border: 1px solid rgb(241, 241, 241);
+    transform: translate(0px, 90px);
+}

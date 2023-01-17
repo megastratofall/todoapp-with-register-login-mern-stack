@@ -1,0 +1,57 @@
+.task_item {
+background-color: #1d2b3a;
+color:rgb(248, 248, 248);
+margin-top: 0.5rem;
+border-radius: 6px;
+font-size: 1.5rem;
+}
+td {
+padding: 0.5rem;
+}
+.task_item:hover {
+background-color: #354e69;
+color: black;
+}
+.task_name {
+max-width: 200px;
+display: flex;
+align-items: center;
+justify-content: flex-start;
+gap: 0.5rem;
+}
+
+p {
+width: calc(100% - 3rem);
+}
+
+.task_name input {
+width: 1.7rem;
+height: 1.7rem;
+cursor: pointer;
+}
+
+.checkbox {
+width: 3rem;
+height: 3rem;
+display: flex;
+align-items: center;
+justify-content: center;
+border-radius: 50%;
+transition: 0.3s ease background-color;
+cursor: pointer;
+}
+
+.deleteBtn {
+display: inline-block;
+border: 1px solid rgb(255, 255, 255);
+padding: 0.5rem 1.5rem;
+font-size: 1.6rem;
+color: rgb(255, 255, 255);
+border-radius: 50px;
+cursor: pointer;
+transition: 0.3s ease background-color, 0.3s ease color;
+}
+.deleteBtn:hover {
+background-color: rgb(142, 13, 39);
+color: rgb(205, 205, 205);
+}

@@ -1,0 +1,11 @@
+.editProfileForm{
+    display: flex;
+    align-items: center;
+    border: 1px solid #fff;
+}
+.editph1{
+    align-items: center!important;
+}
+#backBtn{
+    color: #fff;
+}

@@ -1,0 +1,56 @@
+.topBar {
+margin-top: 2rem;
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding: 0.5rem;
+margin-bottom: 2rem;
+}
+.addNew {
+display: inline-block;
+background-color: #1d2b3a;
+padding: 1rem 2rem;
+font-size: 1.8rem;
+border: 1px solid #fff;
+color: white;
+border-radius: 50px;
+cursor: pointer;
+transition: 0.3s ease background-color, 0.3s ease color;
+	
+}
+.addNew:hover {
+background-color: #314861;
+color: rgb(205, 205, 205);
+}
+.addNewForm {
+width: 100%;
+display: flex;
+gap: 1rem;		
+}
+button[type='submit'] {
+background-color: #1d2b3a;
+padding: 0.5rem 2rem;
+font-size: 1.8rem;
+border: 1px solid #fff;
+color: rgb(255, 255, 255);
+border-radius: 6px;
+cursor: pointer;
+transition: 0.3s ease background-color, 0.3s ease color;
+}
+/* .addNewForm:hover {
+
+} */
+input {
+width: 100%;
+padding: 0.5rem;
+border: 1px solid #fff;
+font-size: 1.8rem;
+color: rgb(255, 255, 255);
+padding: 1rem;
+background-color: #1d2b3a;
+}
+.taskList_table {
+width: 100%;
+margin-top: 2rem;
+background-color: #1d2b3a;
+}
